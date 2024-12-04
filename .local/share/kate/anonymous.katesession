@@ -1,0 +1,169 @@
+[Document 0]
+URL=file:///home/nic/.local/share/kscreen/outputs/4e0391037dcf62b60393768c83fcfd55
+
+[Document 1]
+URL=file:///home/nic/.local/share/kscreen/4b2524b57422c02cbf4298cb9bdfc4c0
+
+[Document 2]
+URL=file:///home/nic/.local/share/kscreen/81a25c9955d3d38ed45808ec0aa044bd
+
+[Kate Plugins]
+cmaketoolsplugin=false
+compilerexplorer=false
+eslintplugin=false
+externaltoolsplugin=true
+formatplugin=false
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katecolorpickerplugin=false
+katectagsplugin=false
+katefilebrowserplugin=false
+katefiletreeplugin=true
+kategdbplugin=false
+kategitblameplugin=false
+katekonsoleplugin=true
+kateprojectplugin=true
+katereplicodeplugin=false
+katesearchplugin=true
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+keyboardmacrosplugin=false
+ktexteditorpreviewplugin=false
+latexcompletionplugin=false
+lspclientplugin=true
+openlinkplugin=false
+rainbowparens=false
+rbqlplugin=false
+tabswitcherplugin=true
+textfilterplugin=true
+
+[MainWindow0]
+Active ViewSpace=0
+Kate-MDI-H-Splitter=0,775,0
+Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
+Kate-MDI-Sidebar-0-LastSize=200
+Kate-MDI-Sidebar-0-SectSizes=0
+Kate-MDI-Sidebar-0-Splitter=878
+Kate-MDI-Sidebar-1-Bar-0-TvList=
+Kate-MDI-Sidebar-1-LastSize=200
+Kate-MDI-Sidebar-1-SectSizes=0
+Kate-MDI-Sidebar-1-Splitter=878
+Kate-MDI-Sidebar-2-Bar-0-TvList=
+Kate-MDI-Sidebar-2-LastSize=200
+Kate-MDI-Sidebar-2-SectSizes=0
+Kate-MDI-Sidebar-2-Splitter=775
+Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin
+Kate-MDI-Sidebar-3-LastSize=214
+Kate-MDI-Sidebar-3-SectSizes=0
+Kate-MDI-Sidebar-3-Splitter=487
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-diagnostics-Position=3
+Kate-MDI-ToolView-diagnostics-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-diagnostics-Visible=false
+Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
+Kate-MDI-ToolView-kate_plugin_katesearch-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=true
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-kateproject-Position=0
+Kate-MDI-ToolView-kateproject-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateproject-Visible=false
+Kate-MDI-ToolView-kateprojectgit-Position=0
+Kate-MDI-ToolView-kateprojectgit-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectgit-Visible=false
+Kate-MDI-ToolView-kateprojectinfo-Position=3
+Kate-MDI-ToolView-kateprojectinfo-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectinfo-Visible=false
+Kate-MDI-ToolView-lspclient_symbol_outline-Position=0
+Kate-MDI-ToolView-lspclient_symbol_outline-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
+Kate-MDI-ToolView-output-Position=3
+Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-output-Visible=false
+Kate-MDI-V-Splitter=0,660,214
+ToolBarsMovable=Disabled
+
+[MainWindow0 Settings]
+ToolBarsMovable=Disabled
+WindowState=2
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=1
+Sizes=775
+
+[MainWindow0-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+View 1=2
+View 2=1
+
+[MainWindow0-ViewSpace 0 0]
+CursorColumn=26
+CursorLine=3
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1
+
+[Plugin:kateprojectplugin:]
+projects=
+
+[Plugin:katesearchplugin:MainWindow:0]
+BinaryFiles=false
+CurrentExcludeFilter=-1
+CurrentFilter=-1
+ExcludeFilters=
+ExpandSearchResults=false
+Filters=
+FollowSymLink=false
+HiddenFiles=false
+MatchCase=false
+Place=1
+Recursive=true
+Replaces=#000000,00B7E5,00D2FF
+Search=
+SearchAsYouTypeAllProjects=true
+SearchAsYouTypeCurrentFile=true
+SearchAsYouTypeFolder=true
+SearchAsYouTypeOpenFiles=true
+SearchAsYouTypeProject=true
+SearchDiskFiles=
+SearchDiskFiless=
+SizeLimit=128
+UseRegExp=false
+
+[Recent Files]
+File1[$e]=$HOME/.config/vesktop/themes/catpuccin.theme.css
+File10[$e]=$HOME/.local/share/kscreen/outputs/4e0391037dcf62b60393768c83fcfd55
+File2[$e]=$HOME/.mozilla/firefox/mko9skje.default-release/chrome/userChrome.css
+File3[$e]=$HOME/Documents/escape-room
+File4[$e]=$HOME/Documents/DOCUMENT.oneshot.txt
+File5[$e]=/run/media/nic/Data/SteamLibrary/steamapps/common/OneShot/README.txt
+File6[$e]=$HOME/.config/kwinoutputconfig.json
+File7[$e]=$HOME/.config/systemsettingsrc
+File8[$e]=$HOME/.local/share/kscreen/4b2524b57422c02cbf4298cb9bdfc4c0
+File9[$e]=$HOME/.local/share/kscreen/81a25c9955d3d38ed45808ec0aa044bd
+Name1[$e]=catpuccin.theme.css
+Name10[$e]=4e0391037dcf62b60393768c83fcfd55
+Name2[$e]=userChrome.css
+Name3[$e]=escape-room
+Name4[$e]=DOCUMENT.oneshot.txt
+Name5[$e]=README.txt
+Name6[$e]=kwinoutputconfig.json
+Name7[$e]=systemsettingsrc
+Name8[$e]=4b2524b57422c02cbf4298cb9bdfc4c0
+Name9[$e]=81a25c9955d3d38ed45808ec0aa044bd
