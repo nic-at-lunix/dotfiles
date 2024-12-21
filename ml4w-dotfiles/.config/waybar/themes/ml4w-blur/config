@@ -26,12 +26,12 @@
 
     // Modules Left
     "modules-left": [
-"custom/appmenu",
+        "custom/appmenu",
         "group/links",
         "group/settings",
         "wlr/taskbar",
-        "group/quicklinks",
-"hyprland/window",
+        //"group/quicklinks",
+        "hyprland/window",
         "custom/empty"
     ],
 
@@ -50,7 +50,7 @@
 "network",
         "group/hardware",
         "group/tools",
-"tray",
+        "tray",
         "custom/exit",
         "custom/ml4w-welcome",
         "clock"
