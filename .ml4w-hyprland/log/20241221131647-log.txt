@@ -1,0 +1,187 @@
+
+# ------------------------------------------------------
+# Installation
+# ------------------------------------------------------
+
+20241221131647 MESSAGE Installation started
+20241221131647 MESSAGE An existing ML4W Dotfiles installation detected.
+
+# ------------------------------------------------------
+# Platform
+# ------------------------------------------------------
+
+20241221131648 MESSAGE Installation on Arch based platform
+
+# ------------------------------------------------------
+# Required packages
+# ------------------------------------------------------
+
+20241221131648 MESSAGE pacman-contrib is already installed.
+20241221131648 MESSAGE wget is already installed.
+20241221131648 MESSAGE zip is already installed.
+20241221131648 MESSAGE unzip is already installed.
+20241221131648 MESSAGE gum is already installed.
+20241221131648 MESSAGE rsync is already installed.
+20241221131648 MESSAGE git is already installed.
+20241221131648 MESSAGE figlet is already installed.
+20241221131648 MESSAGE sed is already installed.
+20241221131648 MESSAGE vim is already installed.
+20241221131649 MESSAGE xdg-user-dirs is already installed.
+20241221131649 MESSAGE man-pages is already installed.
+20241221131649 MESSAGE networkmanager is already installed.
+20241221131649 MESSAGE pip is already installed.
+
+# ------------------------------------------------------
+# Confirm installation/update
+# ------------------------------------------------------
+
+20241221131650 MESSAGE Update started
+
+# ------------------------------------------------------
+# AUR
+# ------------------------------------------------------
+
+20241221131650 MESSAGE yay is installed
+20241221131650 MESSAGE paru is installed
+20241221131651 MESSAGE Using yay as AUR Helper
+
+# ------------------------------------------------------
+# Remove old packages
+# ------------------------------------------------------
+
+20241221131651 MESSAGE Checking for rofi-calc
+20241221131651 MESSAGE Checking for rofi
+20241221131651 MESSAGE Checking for swayidle
+20241221131651 MESSAGE Checking for rofi-lbonn-wayland
+20241221131651 MESSAGE Checking for hypridle-git
+20241221131651 MESSAGE Checking for hyprlock-git
+20241221131651 MESSAGE Checking for bibata-cursor-theme
+
+# ------------------------------------------------------
+# Packages
+# ------------------------------------------------------
+
+20241221131652 MESSAGE hyprland is already installed.
+20241221131652 MESSAGE hyprpaper is already installed.
+20241221131652 MESSAGE hyprlock is already installed.
+20241221131652 MESSAGE hypridle is already installed.
+20241221131652 MESSAGE noto-fonts is already installed.
+20241221131652 MESSAGE xdg-desktop-portal-hyprland is already installed.
+20241221131652 MESSAGE libnotify is already installed.
+20241221131652 MESSAGE dunst is already installed.
+20241221131652 MESSAGE kitty is already installed.
+20241221131652 MESSAGE qt5-wayland is already installed.
+20241221131653 MESSAGE qt6-wayland is already installed.
+20241221131653 MESSAGE fastfetch is already installed.
+20241221131653 MESSAGE xdg-desktop-portal-gtk is already installed.
+20241221131653 MESSAGE eza is already installed.
+20241221131653 MESSAGE python-pip is already installed.
+20241221131653 MESSAGE python-gobject is already installed.
+20241221131653 MESSAGE python-screeninfo is already installed.
+20241221131653 MESSAGE tumbler is already installed.
+20241221131653 MESSAGE brightnessctl is already installed.
+20241221131653 MESSAGE nm-connection-editor is already installed.
+20241221131654 MESSAGE network-manager-applet is already installed.
+20241221131654 MESSAGE gtk4 is already installed.
+20241221131654 MESSAGE libadwaita is already installed.
+20241221131654 MESSAGE fuse2 is already installed.
+20241221131654 MESSAGE imagemagick is already installed.
+20241221131654 MESSAGE jq is already installed.
+20241221131654 MESSAGE xclip is already installed.
+20241221131654 MESSAGE firefox is already installed.
+20241221131654 MESSAGE kitty is already installed.
+20241221131654 MESSAGE neovim is already installed.
+20241221131655 MESSAGE htop is already installed.
+20241221131655 MESSAGE nautilus is already installed.
+20241221131655 MESSAGE nautilus-open-any-terminal is already installed.
+20241221131655 MESSAGE python-pywal is already installed.
+20241221131655 MESSAGE pinta is already installed.
+20241221131655 MESSAGE blueman is already installed.
+20241221131655 MESSAGE grim is already installed.
+20241221131655 MESSAGE slurp is already installed.
+20241221131655 MESSAGE cliphist is already installed.
+20241221131655 MESSAGE Installing nwg-look...
+resolving dependencies...
+looking for conflicting packages...
+:: nwg-look-0.2.7-1 and nwg-look-bin-0.2.7-1 are in conflict. Remove nwg-look-bin? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: nwg-look-0.2.7-1 and nwg-look-bin-0.2.7-1 are in conflict
+20241221131656 ERROR nwg-look installation failed. Please install nwg-look manually.
+20241221131656 MESSAGE qt6ct is already installed.
+20241221131656 MESSAGE waybar is already installed.
+20241221131656 MESSAGE rofi-wayland is already installed.
+20241221131656 MESSAGE polkit-gnome is already installed.
+20241221131656 MESSAGE zsh is already installed.
+20241221131656 MESSAGE zsh-completions is already installed.
+20241221131657 MESSAGE fzf is already installed.
+20241221131657 MESSAGE pavucontrol is already installed.
+20241221131657 MESSAGE papirus-icon-theme is already installed.
+20241221131657 MESSAGE breeze is already installed.
+20241221131657 MESSAGE gvfs is already installed.
+20241221131657 MESSAGE wlogout is already installed.
+20241221131657 MESSAGE hyprshade is already installed.
+20241221131657 MESSAGE waypaper is already installed.
+20241221131657 MESSAGE grimblast-git is already installed.
+20241221131657 MESSAGE bibata-cursor-theme-bin is already installed.
+20241221131657 MESSAGE pacseek is already installed.
+20241221131658 MESSAGE otf-font-awesome is already installed.
+20241221131658 MESSAGE ttf-fira-sans is already installed.
+20241221131658 MESSAGE ttf-fira-code is already installed.
+20241221131658 MESSAGE ttf-firacode-nerd is already installed.
+20241221131658 MESSAGE aylurs-gtk-shell is already installed.
+
+# ------------------------------------------------------
+# Diagnosis
+# ------------------------------------------------------
+
+20241221131658 SUCCESS Required commands checked
+
+# ------------------------------------------------------
+# Dotfiles
+# ------------------------------------------------------
+
+20241221131658 MESSAGE An existing ML4W Dotfiles folder has been detected: ~/ml4w-dotfiles
+20241221131658 MESSAGE You can update your existing ML4W Dotfiles in ml4w-dotfiles or install in a new folder.
+20241221131704 MESSAGE The ML4W Dotfiles will be installed in ~/dotfiles
+20241221131713 MESSAGE The ML4W Dotfiles will be installed in ~/dotfiles
+20241221131713 SUCCESS ML4W Dotfiles will be installed in ~/dotfiles
+20241221131713 MESSAGE The ML4W Dotfiles will be installed in ~/dotfiles
+20241221131747 SUCCESS ML4W Dotfiles will be installed in ~/dotfiles
+
+# ------------------------------------------------------
+# Backup
+# ------------------------------------------------------
+
+20241221131750 SUCCESS Current backup archived in /home/nic/.ml4w-hyprland/archive/20241221131747
+20241221131750 SUCCESS Backup of /home/nic/.bashrc created in /home/nic/.ml4w-hyprland/backup
+20241221131750 SUCCESS Backup of /home/nic/.zshrc created in /home/nic/.ml4w-hyprland/backup
+20241221131750 SUCCESS Backup of /home/nic/.config/kitty created in /home/nic/.ml4w-hyprland/backup/config/
+20241221131750 SUCCESS Backup of /home/nic/.config/nvim created in /home/nic/.ml4w-hyprland/backup/config/
+20241221131750 SUCCESS Backup created in /home/nic/.ml4w-hyprland/backup
+
+# ------------------------------------------------------
+# Preparation
+# ------------------------------------------------------
+
+20241221131750 MESSAGE Preparing temporary folders for the installation.
+20241221131750 SUCCESS The folder /home/nic/.ml4w-hyprland/2.9.7.0 already exists from previous installations.
+20241221131750 SUCCESS Clean build prepared for the installation.
+20241221131750 SUCCESS ML4W Dotfiles 2.9.7.0 successfully prepared in /home/nic/.ml4w-hyprland/2.9.7.0/
+20241221131750 SUCCESS hook.tpl created
+20241221131750 SUCCESS post.tpl created
+20241221131750 SUCCESS automation.tpl created
+20241221131750 SUCCESS activate.sh updated
+20241221131750 SUCCESS scripts.sh for 2.9.7.0 updated in /home/nic/.ml4w-hyprland/library
+20241221131750 SUCCESS AUR Helper updated with yay
+
+# ------------------------------------------------------
+# KVM VM
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# SDDM
+# ------------------------------------------------------
+
+20241221131750 MESSAGE You have already installed a display manager.
