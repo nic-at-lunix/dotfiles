@@ -1,0 +1,292 @@
+
+# ------------------------------------------------------
+# Installation
+# ------------------------------------------------------
+
+20241231204056 MESSAGE Installation started
+20241231204056 MESSAGE An existing ML4W Dotfiles installation detected.
+
+# ------------------------------------------------------
+# Platform
+# ------------------------------------------------------
+
+20241231204056 MESSAGE Installation on Arch based platform
+
+# ------------------------------------------------------
+# Required packages
+# ------------------------------------------------------
+
+20241231204101 MESSAGE pacman-contrib is already installed.
+20241231204101 MESSAGE wget is already installed.
+20241231204101 MESSAGE zip is already installed.
+20241231204101 MESSAGE unzip is already installed.
+20241231204101 MESSAGE gum is already installed.
+20241231204102 MESSAGE rsync is already installed.
+20241231204102 MESSAGE git is already installed.
+20241231204102 MESSAGE figlet is already installed.
+20241231204102 MESSAGE sed is already installed.
+20241231204102 MESSAGE vim is already installed.
+20241231204102 MESSAGE xdg-user-dirs is already installed.
+20241231204102 MESSAGE man-pages is already installed.
+20241231204102 MESSAGE networkmanager is already installed.
+20241231204102 MESSAGE python-pip is already installed.
+
+# ------------------------------------------------------
+# Confirm installation/update
+# ------------------------------------------------------
+
+20241231204104 MESSAGE Update started
+
+# ------------------------------------------------------
+# AUR
+# ------------------------------------------------------
+
+20241231204104 MESSAGE yay is installed
+20241231204104 MESSAGE paru is installed
+20241231204105 MESSAGE Using yay as AUR Helper
+
+# ------------------------------------------------------
+# Remove old packages
+# ------------------------------------------------------
+
+20241231204105 MESSAGE Checking for rofi-calc
+20241231204105 MESSAGE Checking for rofi
+20241231204105 MESSAGE Checking for swayidle
+20241231204105 MESSAGE Checking for rofi-lbonn-wayland
+20241231204106 MESSAGE Checking for hypridle-git
+20241231204106 MESSAGE Checking for hyprlock-git
+20241231204106 MESSAGE Checking for bibata-cursor-theme
+
+# ------------------------------------------------------
+# Packages
+# ------------------------------------------------------
+
+20241231204106 MESSAGE hyprland is already installed.
+20241231204106 MESSAGE hyprpaper is already installed.
+20241231204106 MESSAGE hyprlock is already installed.
+20241231204106 MESSAGE hypridle is already installed.
+20241231204106 MESSAGE noto-fonts is already installed.
+20241231204106 MESSAGE xdg-desktop-portal-hyprland is already installed.
+20241231204106 MESSAGE libnotify is already installed.
+20241231204107 MESSAGE dunst is already installed.
+20241231204107 MESSAGE kitty is already installed.
+20241231204107 MESSAGE qt5-wayland is already installed.
+20241231204107 MESSAGE qt6-wayland is already installed.
+20241231204107 MESSAGE fastfetch is already installed.
+20241231204107 MESSAGE xdg-desktop-portal-gtk is already installed.
+20241231204107 MESSAGE eza is already installed.
+20241231204107 MESSAGE python-pip is already installed.
+20241231204107 MESSAGE python-gobject is already installed.
+20241231204107 MESSAGE python-screeninfo is already installed.
+20241231204108 MESSAGE tumbler is already installed.
+20241231204108 MESSAGE brightnessctl is already installed.
+20241231204108 MESSAGE nm-connection-editor is already installed.
+20241231204108 MESSAGE network-manager-applet is already installed.
+20241231204108 MESSAGE gtk4 is already installed.
+20241231204108 MESSAGE libadwaita is already installed.
+20241231204108 MESSAGE fuse2 is already installed.
+20241231204108 MESSAGE imagemagick is already installed.
+20241231204108 MESSAGE jq is already installed.
+20241231204108 MESSAGE xclip is already installed.
+20241231204109 MESSAGE firefox is already installed.
+20241231204109 MESSAGE kitty is already installed.
+20241231204109 MESSAGE neovim is already installed.
+20241231204109 MESSAGE htop is already installed.
+20241231204109 MESSAGE nautilus is already installed.
+20241231204109 MESSAGE nautilus-open-any-terminal is already installed.
+20241231204109 MESSAGE python-pywal is already installed.
+20241231204109 MESSAGE pinta is already installed.
+20241231204109 MESSAGE blueman is already installed.
+20241231204109 MESSAGE grim is already installed.
+20241231204109 MESSAGE slurp is already installed.
+20241231204110 MESSAGE cliphist is already installed.
+20241231204110 MESSAGE Installing nwg-look...
+resolving dependencies...
+looking for conflicting packages...
+:: nwg-look-0.2.7-1 and nwg-look-bin-0.2.7-1 are in conflict. Remove nwg-look-bin? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: nwg-look-0.2.7-1 and nwg-look-bin-0.2.7-1 are in conflict
+20241231204110 ERROR nwg-look installation failed. Please install nwg-look manually.
+20241231204110 MESSAGE qt6ct is already installed.
+20241231204110 MESSAGE waybar is already installed.
+20241231204110 MESSAGE rofi-wayland is already installed.
+20241231204111 MESSAGE polkit-gnome is already installed.
+20241231204111 MESSAGE zsh is already installed.
+20241231204111 MESSAGE zsh-completions is already installed.
+20241231204111 MESSAGE fzf is already installed.
+20241231204111 MESSAGE pavucontrol is already installed.
+20241231204111 MESSAGE papirus-icon-theme is already installed.
+20241231204111 MESSAGE breeze is already installed.
+20241231204111 MESSAGE gvfs is already installed.
+20241231204111 MESSAGE wlogout is already installed.
+20241231204111 MESSAGE hyprshade is already installed.
+20241231204112 MESSAGE waypaper is already installed.
+20241231204112 MESSAGE grimblast-git is already installed.
+20241231204112 MESSAGE bibata-cursor-theme-bin is already installed.
+20241231204112 MESSAGE pacseek is already installed.
+20241231204112 MESSAGE otf-font-awesome is already installed.
+20241231204112 MESSAGE ttf-fira-sans is already installed.
+20241231204112 MESSAGE ttf-fira-code is already installed.
+20241231204112 MESSAGE ttf-firacode-nerd is already installed.
+20241231204112 MESSAGE Installing aylurs-gtk-shell with custom script...
+AUR Explicit (1): aylurs-gtk-shell-2.2.1-1
+:: [1mPKGBUILD up to date, skipping download: aylurs-gtk-shell[0m
+  1 aylurs-gtk-shell                         (Build Files Exist)
+==> Packages to cleanBuild?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+  1 aylurs-gtk-shell                         (Build Files Exist)
+==> Diffs to show?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+==> Making package: aylurs-gtk-shell 2.2.1-1 (Tue 31 Dec 2024 08:41:15 PM +07)
+==> Retrieving sources...
+  -> Found aylurs-gtk-shell-2.2.1.tar.gz
+==> WARNING: Skipping verification of source file PGP signatures.
+==> Validating source files with sha256sums...
+    aylurs-gtk-shell-2.2.1.tar.gz ... Passed
+:: [1m(1/1) Parsing SRCINFO: aylurs-gtk-shell[0m
+==> Making package: aylurs-gtk-shell 2.2.1-1 (Tue 31 Dec 2024 08:41:15 PM +07)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found aylurs-gtk-shell-2.2.1.tar.gz
+==> Validating source files with sha256sums...
+    aylurs-gtk-shell-2.2.1.tar.gz ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting aylurs-gtk-shell-2.2.1.tar.gz with bsdtar
+==> Sources are ready.
+ -> aylurs-gtk-shell-2.2.1-1 already made -- skipping build
+==> Making package: aylurs-gtk-shell 2.2.1-1 (Tue 31 Dec 2024 08:41:17 PM +07)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Sources are ready.
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (2) aylurs-gtk-shell-2.2.1-1  aylurs-gtk-shell-debug-2.2.1-1
+
+Total Installed Size:  12.89 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+error: failed to commit transaction (conflicting files)
+aylurs-gtk-shell: /usr/bin/ags exists in filesystem (owned by ags)
+aylurs-gtk-shell-debug: /usr/lib/debug/usr/bin/ags.debug exists in filesystem (owned by ags-debug)
+Errors occurred, no packages were upgraded.
+ -> error installing: [/home/nic/.cache/yay/aylurs-gtk-shell/aylurs-gtk-shell-2.2.1-1-x86_64.pkg.tar.zst /home/nic/.cache/yay/aylurs-gtk-shell/aylurs-gtk-shell-debug-2.2.1-1-x86_64.pkg.tar.zst] - exit status 1
+20241231204117 MESSAGE nwg-dock-hyprland is already installed.
+20241231204117 MESSAGE Installing oh-my-posh-bin with custom script...
+AUR Explicit (1): oh-my-posh-bin-24.17.1-1
+:: [1mPKGBUILD up to date, skipping download: oh-my-posh-bin[0m
+  1 oh-my-posh-bin                           (Build Files Exist)
+==> Packages to cleanBuild?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+  1 oh-my-posh-bin                           (Build Files Exist)
+==> Diffs to show?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+==> Making package: oh-my-posh-bin 24.17.1-1 (Tue 31 Dec 2024 08:41:20 PM +07)
+==> Retrieving sources...
+  -> Found themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip
+  -> Found LICENSE-a5308c4e51268229a039ec4ec9a251a4cdb89d9380383e6e13aeba64a74f19ad
+  -> Found posh-linux-amd64-c9afa012146f784a5905ea87ff71c1e95ab372012e646709044d078694c71216
+==> WARNING: Skipping verification of source file PGP signatures.
+==> Validating source files with sha256sums...
+    themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip ... Passed
+    LICENSE-a5308c4e51268229a039ec4ec9a251a4cdb89d9380383e6e13aeba64a74f19ad ... Passed
+==> Validating source_x86_64 files with sha256sums...
+    posh-linux-amd64-c9afa012146f784a5905ea87ff71c1e95ab372012e646709044d078694c71216 ... Passed
+:: [1m(1/1) Parsing SRCINFO: oh-my-posh-bin[0m
+==> Making package: oh-my-posh-bin 24.17.1-1 (Tue 31 Dec 2024 08:41:22 PM +07)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip
+  -> Found LICENSE-a5308c4e51268229a039ec4ec9a251a4cdb89d9380383e6e13aeba64a74f19ad
+  -> Found posh-linux-amd64-c9afa012146f784a5905ea87ff71c1e95ab372012e646709044d078694c71216
+==> Validating source files with sha256sums...
+    themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip ... Passed
+    LICENSE-a5308c4e51268229a039ec4ec9a251a4cdb89d9380383e6e13aeba64a74f19ad ... Passed
+==> Validating source_x86_64 files with sha256sums...
+    posh-linux-amd64-c9afa012146f784a5905ea87ff71c1e95ab372012e646709044d078694c71216 ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip with bsdtar
+==> Starting pkgver()...
+==> Sources are ready.
+ -> oh-my-posh-bin-24.17.1-1 already made -- skipping build
+==> Making package: oh-my-posh-bin 24.17.1-1 (Tue 31 Dec 2024 08:41:25 PM +07)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Starting pkgver()...
+==> Sources are ready.
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (2) oh-my-posh-bin-24.17.1-1  oh-my-posh-bin-debug-24.17.1-1
+
+Total Installed Size:  17.65 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+error: failed to commit transaction (conflicting files)
+oh-my-posh-bin-debug: /usr/lib/debug/usr/bin/oh-my-posh.debug exists in filesystem (owned by oh-my-posh-debug)
+Errors occurred, no packages were upgraded.
+ -> error installing: [/home/nic/.cache/yay/oh-my-posh-bin/oh-my-posh-bin-24.17.1-1-x86_64.pkg.tar.zst /home/nic/.cache/yay/oh-my-posh-bin/oh-my-posh-bin-debug-24.17.1-1-x86_64.pkg.tar.zst] - exit status 1
+20241231204127 MESSAGE checkupdates-with-aur is already installed.
+
+# ------------------------------------------------------
+# Diagnosis
+# ------------------------------------------------------
+
+20241231204130 SUCCESS Required commands checked
+
+# ------------------------------------------------------
+# Dotfiles
+# ------------------------------------------------------
+
+20241231204130 MESSAGE An existing ML4W Dotfiles folder has been detected: ~/ml4w-dotfiles
+20241231204130 MESSAGE You can update your existing ML4W Dotfiles in ml4w-dotfiles or install in a new folder.
+20241231204132 MESSAGE Update will be executed in ~/ml4w-dotfiles
+
+# ------------------------------------------------------
+# Backup
+# ------------------------------------------------------
+
+20241231204133 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# Preparation
+# ------------------------------------------------------
+
+20241231204133 MESSAGE Preparing temporary folders for the installation.
+20241231204133 SUCCESS The folder /home/nic/.ml4w-hyprland/2.9.7.3 already exists from previous installations.
+20241231204133 SUCCESS Clean build prepared for the installation.
+20241231204134 SUCCESS ML4W Dotfiles 2.9.7.3 successfully prepared in /home/nic/.ml4w-hyprland/2.9.7.3/
+20241231204134 SUCCESS hook.tpl created
+20241231204134 SUCCESS post.tpl created
+20241231204134 SUCCESS automation.tpl created
+20241231204134 SUCCESS activate.sh updated
+20241231204134 SUCCESS scripts.sh for 2.9.7.3 updated in /home/nic/.ml4w-hyprland/library
+20241231204134 SUCCESS AUR Helper updated with yay
+
+# ------------------------------------------------------
+# SDDM
+# ------------------------------------------------------
+
+20241231204134 MESSAGE You have already installed a display manager.
+20241231204142 MESSAGE PROCESS CANCELED

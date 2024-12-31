@@ -35,8 +35,6 @@
     "modules-left": [
 "custom/appmenu",
         "custom/settings",
-        "custom/waybarthemes",
-        "custom/wallpaper",
         //"wlr/taskbar",
         "group/quicklinks",
 "hyprland/window",
@@ -52,7 +50,7 @@
     "modules-right": [
         "custom/updates",
         "pulseaudio",
-//"backlight",
+"backlight",
         "bluetooth",
         "battery", 
 "network",

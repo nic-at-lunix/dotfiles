@@ -1,0 +1,948 @@
+
+# ------------------------------------------------------
+# Installation
+# ------------------------------------------------------
+
+20241231214227 MESSAGE Installation started
+20241231214227 MESSAGE An existing ML4W Dotfiles installation detected.
+
+# ------------------------------------------------------
+# Platform
+# ------------------------------------------------------
+
+20241231214227 MESSAGE Installation on Arch based platform
+
+# ------------------------------------------------------
+# Required packages
+# ------------------------------------------------------
+
+20241231214231 MESSAGE pacman-contrib is already installed.
+20241231214231 MESSAGE wget is already installed.
+20241231214231 MESSAGE zip is already installed.
+20241231214231 MESSAGE unzip is already installed.
+20241231214232 MESSAGE gum is already installed.
+20241231214232 MESSAGE rsync is already installed.
+20241231214232 MESSAGE git is already installed.
+20241231214232 MESSAGE figlet is already installed.
+20241231214232 MESSAGE sed is already installed.
+20241231214232 MESSAGE vim is already installed.
+20241231214232 MESSAGE xdg-user-dirs is already installed.
+20241231214232 MESSAGE man-pages is already installed.
+20241231214232 MESSAGE networkmanager is already installed.
+20241231214232 MESSAGE python-pip is already installed.
+
+# ------------------------------------------------------
+# Confirm installation/update
+# ------------------------------------------------------
+
+20241231214302 MESSAGE Update started
+
+# ------------------------------------------------------
+# AUR
+# ------------------------------------------------------
+
+20241231214302 MESSAGE yay is installed
+20241231214302 MESSAGE paru is installed
+20241231214302 MESSAGE Using yay as AUR Helper
+
+# ------------------------------------------------------
+# Remove old packages
+# ------------------------------------------------------
+
+20241231214302 MESSAGE Checking for rofi-calc
+20241231214303 MESSAGE Checking for rofi
+20241231214303 MESSAGE Checking for swayidle
+20241231214303 MESSAGE Checking for rofi-lbonn-wayland
+20241231214303 MESSAGE Checking for hypridle-git
+20241231214303 MESSAGE Checking for hyprlock-git
+20241231214303 MESSAGE Checking for bibata-cursor-theme
+
+# ------------------------------------------------------
+# Packages
+# ------------------------------------------------------
+
+20241231214304 MESSAGE hyprland is already installed.
+20241231214304 MESSAGE hyprpaper is already installed.
+20241231214304 MESSAGE hyprlock is already installed.
+20241231214304 MESSAGE hypridle is already installed.
+20241231214304 MESSAGE noto-fonts is already installed.
+20241231214304 MESSAGE xdg-desktop-portal-hyprland is already installed.
+20241231214304 MESSAGE libnotify is already installed.
+20241231214304 MESSAGE dunst is already installed.
+20241231214304 MESSAGE kitty is already installed.
+20241231214304 MESSAGE qt5-wayland is already installed.
+20241231214305 MESSAGE qt6-wayland is already installed.
+20241231214305 MESSAGE fastfetch is already installed.
+20241231214305 MESSAGE xdg-desktop-portal-gtk is already installed.
+20241231214305 MESSAGE eza is already installed.
+20241231214305 MESSAGE python-pip is already installed.
+20241231214305 MESSAGE python-gobject is already installed.
+20241231214305 MESSAGE python-screeninfo is already installed.
+20241231214305 MESSAGE tumbler is already installed.
+20241231214305 MESSAGE brightnessctl is already installed.
+20241231214305 MESSAGE nm-connection-editor is already installed.
+20241231214306 MESSAGE network-manager-applet is already installed.
+20241231214306 MESSAGE gtk4 is already installed.
+20241231214306 MESSAGE libadwaita is already installed.
+20241231214306 MESSAGE fuse2 is already installed.
+20241231214306 MESSAGE imagemagick is already installed.
+20241231214306 MESSAGE jq is already installed.
+20241231214306 MESSAGE xclip is already installed.
+20241231214306 MESSAGE firefox is already installed.
+20241231214306 MESSAGE kitty is already installed.
+20241231214306 MESSAGE neovim is already installed.
+20241231214307 MESSAGE htop is already installed.
+20241231214307 MESSAGE nautilus is already installed.
+20241231214307 MESSAGE nautilus-open-any-terminal is already installed.
+20241231214307 MESSAGE python-pywal is already installed.
+20241231214307 MESSAGE pinta is already installed.
+20241231214307 MESSAGE blueman is already installed.
+20241231214307 MESSAGE grim is already installed.
+20241231214307 MESSAGE slurp is already installed.
+20241231214307 MESSAGE cliphist is already installed.
+20241231214307 MESSAGE Installing nwg-look...
+resolving dependencies...
+looking for conflicting packages...
+:: nwg-look-0.2.7-1 and nwg-look-bin-0.2.7-1 are in conflict. Remove nwg-look-bin? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: nwg-look-0.2.7-1 and nwg-look-bin-0.2.7-1 are in conflict
+20241231214308 ERROR nwg-look installation failed. Please install nwg-look manually.
+20241231214308 MESSAGE qt6ct is already installed.
+20241231214308 MESSAGE waybar is already installed.
+20241231214308 MESSAGE rofi-wayland is already installed.
+20241231214308 MESSAGE polkit-gnome is already installed.
+20241231214308 MESSAGE zsh is already installed.
+20241231214309 MESSAGE zsh-completions is already installed.
+20241231214309 MESSAGE fzf is already installed.
+20241231214309 MESSAGE pavucontrol is already installed.
+20241231214309 MESSAGE papirus-icon-theme is already installed.
+20241231214309 MESSAGE breeze is already installed.
+20241231214309 MESSAGE gvfs is already installed.
+20241231214309 MESSAGE wlogout is already installed.
+20241231214309 MESSAGE hyprshade is already installed.
+20241231214309 MESSAGE waypaper is already installed.
+20241231214309 MESSAGE grimblast-git is already installed.
+20241231214310 MESSAGE bibata-cursor-theme-bin is already installed.
+20241231214310 MESSAGE pacseek is already installed.
+20241231214310 MESSAGE otf-font-awesome is already installed.
+20241231214310 MESSAGE ttf-fira-sans is already installed.
+20241231214310 MESSAGE ttf-fira-code is already installed.
+20241231214310 MESSAGE ttf-firacode-nerd is already installed.
+20241231214310 MESSAGE Installing aylurs-gtk-shell with custom script...
+AUR Explicit (1): aylurs-gtk-shell-2.2.1-1
+:: [1mPKGBUILD up to date, skipping download: aylurs-gtk-shell[0m
+  1 aylurs-gtk-shell                         (Build Files Exist)
+==> Packages to cleanBuild?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+  1 aylurs-gtk-shell                         (Build Files Exist)
+==> Diffs to show?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+==> Making package: aylurs-gtk-shell 2.2.1-1 (Tue Dec 31 21:43:12 2024)
+==> Retrieving sources...
+  -> Found aylurs-gtk-shell-2.2.1.tar.gz
+==> WARNING: Skipping verification of source file PGP signatures.
+==> Validating source files with sha256sums...
+    aylurs-gtk-shell-2.2.1.tar.gz ... Passed
+:: [1m(1/1) Parsing SRCINFO: aylurs-gtk-shell[0m
+==> Making package: aylurs-gtk-shell 2.2.1-1 (Tue Dec 31 21:43:13 2024)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found aylurs-gtk-shell-2.2.1.tar.gz
+==> Validating source files with sha256sums...
+    aylurs-gtk-shell-2.2.1.tar.gz ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting aylurs-gtk-shell-2.2.1.tar.gz with bsdtar
+==> Sources are ready.
+ -> aylurs-gtk-shell-2.2.1-1 already made -- skipping build
+==> Making package: aylurs-gtk-shell 2.2.1-1 (Tue Dec 31 21:43:15 2024)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Sources are ready.
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (2) aylurs-gtk-shell-2.2.1-1  aylurs-gtk-shell-debug-2.2.1-1
+
+Total Installed Size:  12.89 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+error: failed to commit transaction (conflicting files)
+aylurs-gtk-shell: /usr/bin/ags exists in filesystem (owned by ags)
+aylurs-gtk-shell-debug: /usr/lib/debug/usr/bin/ags.debug exists in filesystem (owned by ags-debug)
+Errors occurred, no packages were upgraded.
+ -> error installing: [/home/nic/.cache/yay/aylurs-gtk-shell/aylurs-gtk-shell-2.2.1-1-x86_64.pkg.tar.zst /home/nic/.cache/yay/aylurs-gtk-shell/aylurs-gtk-shell-debug-2.2.1-1-x86_64.pkg.tar.zst] - exit status 1
+20241231214315 MESSAGE nwg-dock-hyprland is already installed.
+20241231214315 MESSAGE Installing oh-my-posh-bin with custom script...
+AUR Explicit (1): oh-my-posh-bin-24.17.1-1
+:: [1mPKGBUILD up to date, skipping download: oh-my-posh-bin[0m
+  1 oh-my-posh-bin                           (Build Files Exist)
+==> Packages to cleanBuild?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+  1 oh-my-posh-bin                           (Build Files Exist)
+==> Diffs to show?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+==> Making package: oh-my-posh-bin 24.17.1-1 (Tue Dec 31 21:43:18 2024)
+==> Retrieving sources...
+  -> Found themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip
+  -> Found LICENSE-a5308c4e51268229a039ec4ec9a251a4cdb89d9380383e6e13aeba64a74f19ad
+  -> Found posh-linux-amd64-c9afa012146f784a5905ea87ff71c1e95ab372012e646709044d078694c71216
+==> WARNING: Skipping verification of source file PGP signatures.
+==> Validating source files with sha256sums...
+    themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip ... Passed
+    LICENSE-a5308c4e51268229a039ec4ec9a251a4cdb89d9380383e6e13aeba64a74f19ad ... Passed
+==> Validating source_x86_64 files with sha256sums...
+    posh-linux-amd64-c9afa012146f784a5905ea87ff71c1e95ab372012e646709044d078694c71216 ... Passed
+:: [1m(1/1) Parsing SRCINFO: oh-my-posh-bin[0m
+==> Making package: oh-my-posh-bin 24.17.1-1 (Tue Dec 31 21:43:20 2024)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip
+  -> Found LICENSE-a5308c4e51268229a039ec4ec9a251a4cdb89d9380383e6e13aeba64a74f19ad
+  -> Found posh-linux-amd64-c9afa012146f784a5905ea87ff71c1e95ab372012e646709044d078694c71216
+==> Validating source files with sha256sums...
+    themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip ... Passed
+    LICENSE-a5308c4e51268229a039ec4ec9a251a4cdb89d9380383e6e13aeba64a74f19ad ... Passed
+==> Validating source_x86_64 files with sha256sums...
+    posh-linux-amd64-c9afa012146f784a5905ea87ff71c1e95ab372012e646709044d078694c71216 ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting themes-3253af9af05779103c267aec254dafdab51d8d82e1ab3c2d4cc691fdd4b5e13f.zip with bsdtar
+==> Starting pkgver()...
+==> Sources are ready.
+ -> oh-my-posh-bin-24.17.1-1 already made -- skipping build
+==> Making package: oh-my-posh-bin 24.17.1-1 (Tue Dec 31 21:43:24 2024)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Starting pkgver()...
+==> Sources are ready.
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (2) oh-my-posh-bin-24.17.1-1  oh-my-posh-bin-debug-24.17.1-1
+
+Total Installed Size:  17.65 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+error: failed to commit transaction (conflicting files)
+oh-my-posh-bin-debug: /usr/lib/debug/usr/bin/oh-my-posh.debug exists in filesystem (owned by oh-my-posh-debug)
+Errors occurred, no packages were upgraded.
+ -> error installing: [/home/nic/.cache/yay/oh-my-posh-bin/oh-my-posh-bin-24.17.1-1-x86_64.pkg.tar.zst /home/nic/.cache/yay/oh-my-posh-bin/oh-my-posh-bin-debug-24.17.1-1-x86_64.pkg.tar.zst] - exit status 1
+20241231214325 MESSAGE checkupdates-with-aur is already installed.
+
+# ------------------------------------------------------
+# Diagnosis
+# ------------------------------------------------------
+
+20241231214336 SUCCESS Required commands checked
+
+# ------------------------------------------------------
+# Dotfiles
+# ------------------------------------------------------
+
+20241231214336 MESSAGE An existing ML4W Dotfiles folder has been detected: ~/ml4w-dotfiles
+20241231214336 MESSAGE You can update your existing ML4W Dotfiles in ml4w-dotfiles or install in a new folder.
+20241231214340 MESSAGE Update will be executed in ~/ml4w-dotfiles
+
+# ------------------------------------------------------
+# Backup
+# ------------------------------------------------------
+
+20241231214343 SUCCESS Current backup archived in /home/nic/.ml4w-hyprland/archive/20241231214340
+20241231214343 SUCCESS Backup of /home/nic/ml4w-dotfiles created in /home/nic/.ml4w-hyprland/backup
+20241231214343 SUCCESS Backup of /home/nic/.bashrc created in /home/nic/.ml4w-hyprland/backup
+20241231214343 SUCCESS Backup of /home/nic/.gtkrc-2.0 created in /home/nic/.ml4w-hyprland/backup
+20241231214343 SUCCESS Backup of /home/nic/.Xresources created in /home/nic/.ml4w-hyprland/backup
+20241231214343 SUCCESS Backup of /home/nic/.zshrc created in /home/nic/.ml4w-hyprland/backup
+20241231214343 SUCCESS Backup of /home/nic/.config/ags created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/fastfetch created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/gtk-3.0 created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/gtk-4.0 created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/kitty created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/nvim created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/nwg-dock-hyprland created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/ohmyposh created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/qt6ct created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/vim created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/wal created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/waybar created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/waypaper created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/wlogout created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup of /home/nic/.config/xsettingsd created in /home/nic/.ml4w-hyprland/backup/config/
+20241231214343 SUCCESS Backup created in /home/nic/.ml4w-hyprland/backup
+
+# ------------------------------------------------------
+# Preparation
+# ------------------------------------------------------
+
+20241231214343 MESSAGE Preparing temporary folders for the installation.
+20241231214343 SUCCESS The folder /home/nic/.ml4w-hyprland/2.9.7.3 already exists from previous installations.
+20241231214343 SUCCESS Clean build prepared for the installation.
+20241231214343 SUCCESS ML4W Dotfiles 2.9.7.3 successfully prepared in /home/nic/.ml4w-hyprland/2.9.7.3/
+20241231214343 SUCCESS hook.tpl created
+20241231214343 SUCCESS post.tpl created
+20241231214343 SUCCESS automation.tpl created
+20241231214344 SUCCESS activate.sh updated
+20241231214344 SUCCESS scripts.sh for 2.9.7.3 updated in /home/nic/.ml4w-hyprland/library
+20241231214344 SUCCESS AUR Helper updated with yay
+
+# ------------------------------------------------------
+# SDDM
+# ------------------------------------------------------
+
+20241231214344 MESSAGE You have already installed a display manager.
+20241231214347 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# SDDM Theme
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Before restore
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Restore
+# ------------------------------------------------------
+
+20241231214355 MESSAGE Restore Folder .config/gtk-3.0
+20241231214355 SUCCESS Hyprland .config/gtk-3.0 restored
+20241231214355 MESSAGE Restore Folder .config/gtk-4.0
+20241231214355 SUCCESS Hyprland .config/gtk-4.0 restored
+20241231214355 MESSAGE Restore File .gtkrc-2.0
+20241231214355 SUCCESS Hyprland .gtkrc-2.0 restored
+20241231214355 MESSAGE Restore Folder .config/ml4w/settings
+20241231214355 SUCCESS Hyprland .config/ml4w/settings restored
+20241231214355 MESSAGE Restore File .config/hypr/hypridle.conf
+20241231214355 SUCCESS Hyprland .config/hypr/hypridle.conf restored
+20241231214355 MESSAGE Restore File .config/hypr/conf/custom.conf
+20241231214355 SUCCESS Hyprland .config/hypr/conf/custom.conf restored
+20241231214355 MESSAGE Restore File .config/hypr/conf/keyboard.conf
+20241231214355 SUCCESS Hyprland .config/hypr/conf/keyboard.conf restored
+20241231214355 MESSAGE Restore File .config/hypr/conf/keybinding.conf
+20241231214355 SUCCESS Hyprland .config/hypr/conf/keybinding.conf restored
+20241231214355 MESSAGE Restore File .config/hypr/conf/environment.conf
+20241231214355 SUCCESS Hyprland .config/hypr/conf/environment.conf restored
+20241231214355 MESSAGE Restore File .config/hypr/conf/layout.conf
+20241231214355 SUCCESS Hyprland .config/hypr/conf/layout.conf restored
+20241231214355 MESSAGE Restore File .config/hypr/conf/windowrule.conf
+20241231214355 SUCCESS Hyprland .config/hypr/conf/windowrule.conf restored
+20241231214355 MESSAGE Restore File .config/hypr/conf/monitor.conf
+20241231214355 SUCCESS Hyprland .config/hypr/conf/monitor.conf restored
+20241231214355 MESSAGE Restore File .config/hypr/conf/animation.conf
+20241231214356 SUCCESS Hyprland .config/hypr/conf/animation.conf restored
+20241231214356 MESSAGE Restore File .config/hypr/conf/decoration.conf
+20241231214356 SUCCESS Hyprland .config/hypr/conf/decoration.conf restored
+20241231214356 MESSAGE Restore File .config/hypr/conf/window.conf
+20241231214356 SUCCESS Hyprland .config/hypr/conf/window.conf restored
+
+# ------------------------------------------------------
+# Keyboard
+# ------------------------------------------------------
+
+20241231214356 MESSAGE You have already restored your settings into the new installation.
+20241231214356 MESSAGE You can repeat the keyboard setup again to choose between a desktop and laptop optimized configuration.
+
+# ------------------------------------------------------
+# Hook
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# .bashrc
+# ------------------------------------------------------
+
+20241231214359 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# .zshrc
+# ------------------------------------------------------
+
+20241231214400 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# Kitty
+# ------------------------------------------------------
+
+20241231214400 MESSAGE The script has detected a kitty folder in your ~/.config folder.
+20241231214400 MESSAGE You can replace it with the latest version of ML4W Dotfiles 2.9.7.3.
+20241231214402 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# Neovim
+# ------------------------------------------------------
+
+20241231214404 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# Wallpaper
+# ------------------------------------------------------
+
+20241231214404 MESSAGE Waypaper configuration exists
+
+# ------------------------------------------------------
+# Protect
+# ------------------------------------------------------
+
+20241231214404 MESSAGE Checking for directory ~/.config/ags
+20241231214404 MESSAGE Checking for directory ~/.config/alacritty
+20241231214404 MESSAGE Checking for directory ~/.config/bashrc
+20241231214404 MESSAGE Checking for directory ~/.config/dunst
+20241231214404 MESSAGE Checking for directory ~/.config/fastfetch
+20241231214404 MESSAGE Checking for directory ~/.config/gtk-3.0
+20241231214404 MESSAGE Checking for directory ~/.config/gtk-4.0
+20241231214404 MESSAGE Checking for directory ~/.config/hypr
+20241231214404 MESSAGE Checking for directory ~/.config/ml4w
+20241231214404 MESSAGE Checking for directory ~/.config/nvim
+20241231214404 MESSAGE Checking for directory ~/.config/nwg-dock-hyprland
+20241231214404 MESSAGE Checking for directory ~/.config/ohmyposh
+20241231214404 MESSAGE Checking for directory ~/.config/qt6ct
+20241231214404 MESSAGE Checking for directory ~/.config/rofi
+20241231214404 MESSAGE Checking for directory ~/.config/vim
+20241231214404 MESSAGE Checking for directory ~/.config/wal
+20241231214404 MESSAGE Checking for directory ~/.config/waybar
+20241231214404 MESSAGE Checking for directory ~/.config/waypaper
+20241231214404 MESSAGE Checking for directory ~/.config/wlogout
+20241231214404 MESSAGE Checking for directory ~/.config/xsettingsd
+20241231214404 MESSAGE Checking for directory ~/.config/zshrc
+
+# ------------------------------------------------------
+# Copy
+# ------------------------------------------------------
+
+20241231214406 SUCCESS Copy started
+sending incremental file list
+./
+.Xresources
+.bashrc
+.gtkrc-2.0
+.zshrc
+.config/
+.config/ags/
+.config/ags/app.ts
+.config/ags/env.d.ts
+.config/ags/style.css
+.config/ags/tsconfig.json
+.config/ags/assets/
+.config/ags/assets/ml4w-dotfiles-settings.png
+.config/ags/assets/ml4w-hyprland-settings.png
+.config/ags/assets/ml4w-welcome.png
+.config/ags/scripts/
+.config/ags/scripts/run_themeswitcher.sh
+.config/ags/scripts/run_wallpapereffects.sh
+.config/ags/widget/
+.config/ags/widget/Bar.tsx
+.config/ags/widget/Brightness.tsx
+.config/ags/widget/Calendar.tsx
+.config/ags/widget/Sidebar.tsx
+.config/bashrc/
+.config/bashrc/00-init
+.config/bashrc/10-aliases
+.config/bashrc/20-customization
+.config/bashrc/30-autostart
+.config/dunst/
+.config/dunst/dunstrc
+.config/fastfetch/
+.config/fastfetch/config.jsonc
+.config/gtk-3.0/bookmarks
+.config/gtk-3.0/colors.css
+.config/gtk-3.0/gtk.css
+.config/gtk-3.0/settings.ini
+.config/gtk-4.0/colors.css
+.config/gtk-4.0/gtk.css
+.config/gtk-4.0/settings.ini
+.config/hypr/
+.config/hypr/hypridle.conf
+.config/hypr/hyprland.conf
+.config/hypr/hyprlock.conf
+.config/hypr/hyprpaper.conf
+.config/hypr/conf/
+.config/hypr/conf/animation.conf
+.config/hypr/conf/autostart.conf
+.config/hypr/conf/cursor.conf
+.config/hypr/conf/custom.conf
+.config/hypr/conf/decoration.conf
+.config/hypr/conf/environment.conf
+.config/hypr/conf/keybinding.conf
+.config/hypr/conf/keyboard.conf
+.config/hypr/conf/layout.conf
+.config/hypr/conf/misc.conf
+.config/hypr/conf/ml4w.conf
+.config/hypr/conf/monitor.conf
+.config/hypr/conf/restorevariations.sh
+.config/hypr/conf/window.conf
+.config/hypr/conf/windowrule.conf
+.config/hypr/conf/animations/
+.config/hypr/conf/animations/animations-classic.conf
+.config/hypr/conf/animations/animations-dynamic.conf
+.config/hypr/conf/animations/animations-fast.conf
+.config/hypr/conf/animations/animations-high.conf
+.config/hypr/conf/animations/animations-moving.conf
+.config/hypr/conf/animations/default.conf
+.config/hypr/conf/animations/disabled.conf
+.config/hypr/conf/animations/standard.conf
+.config/hypr/conf/decorations/
+.config/hypr/conf/decorations/default.conf
+.config/hypr/conf/decorations/no-rounding-more-blur.conf
+.config/hypr/conf/decorations/no-rounding.conf
+.config/hypr/conf/decorations/rounding-all-blur-no-shadows.conf
+.config/hypr/conf/decorations/rounding-all-blur.conf
+.config/hypr/conf/decorations/rounding-more-blur.conf
+.config/hypr/conf/decorations/rounding.conf
+.config/hypr/conf/environments/
+.config/hypr/conf/environments/default.conf
+.config/hypr/conf/environments/kvm.conf
+.config/hypr/conf/environments/nvidia.conf
+.config/hypr/conf/keybindings/
+.config/hypr/conf/keybindings/default.conf
+.config/hypr/conf/keybindings/fr.conf
+.config/hypr/conf/layouts/
+.config/hypr/conf/layouts/default.conf
+.config/hypr/conf/layouts/laptop.conf
+.config/hypr/conf/monitors/
+.config/hypr/conf/monitors/1366x768.conf
+.config/hypr/conf/monitors/1440x1080.conf
+.config/hypr/conf/monitors/1600x900.conf
+.config/hypr/conf/monitors/1920x1080.conf
+.config/hypr/conf/monitors/1920x1200.conf
+.config/hypr/conf/monitors/2560x1440.conf
+.config/hypr/conf/monitors/2560x1440@120.conf
+.config/hypr/conf/monitors/2560x1440@120x125.conf
+.config/hypr/conf/monitors/3440x1440.conf
+.config/hypr/conf/monitors/default.conf
+.config/hypr/conf/monitors/highres.conf
+.config/hypr/conf/windowrules/
+.config/hypr/conf/windowrules/default.conf
+.config/hypr/conf/windows/
+.config/hypr/conf/windows/border-1-reverse.conf
+.config/hypr/conf/windows/border-1.conf
+.config/hypr/conf/windows/border-2-reverse.conf
+.config/hypr/conf/windows/border-2.conf
+.config/hypr/conf/windows/border-3-reverse.conf
+.config/hypr/conf/windows/border-3.conf
+.config/hypr/conf/windows/border-4-reverse.conf
+.config/hypr/conf/windows/border-4.conf
+.config/hypr/conf/windows/default.conf
+.config/hypr/conf/windows/no-border-more-gaps.conf
+.config/hypr/conf/windows/no-border.conf
+.config/hypr/effects/wallpaper/
+.config/hypr/effects/wallpaper/blackwhite
+.config/hypr/effects/wallpaper/blackwhite-blur
+.config/hypr/effects/wallpaper/blackwhite-brightness40
+.config/hypr/effects/wallpaper/blackwhite-brightness60
+.config/hypr/effects/wallpaper/blackwhite-brightness80
+.config/hypr/effects/wallpaper/blur1
+.config/hypr/effects/wallpaper/blur1-brightness40
+.config/hypr/effects/wallpaper/blur1-brightness60
+.config/hypr/effects/wallpaper/blur1-brightness80
+.config/hypr/effects/wallpaper/blur2
+.config/hypr/effects/wallpaper/negate
+.config/hypr/effects/wallpaper/negate-brightness40
+.config/hypr/effects/wallpaper/negate-brightness60
+.config/hypr/effects/wallpaper/negate-brightness80
+.config/hypr/scripts/
+.config/hypr/scripts/cleanup.sh
+.config/hypr/scripts/disabledm.sh
+.config/hypr/scripts/gamemode.sh
+.config/hypr/scripts/gtk.sh
+.config/hypr/scripts/hypridle.sh
+.config/hypr/scripts/hyprshade.sh
+.config/hypr/scripts/init-wallpaper-engine.sh
+.config/hypr/scripts/keybindings.sh
+.config/hypr/scripts/loadconfig.sh
+.config/hypr/scripts/moveTo.sh
+.config/hypr/scripts/power.sh
+.config/hypr/scripts/restart-hypridle.sh
+.config/hypr/scripts/screenshot.sh
+.config/hypr/scripts/toggle-animations.sh
+.config/hypr/scripts/toggleallfloat.sh
+.config/hypr/scripts/wallpaper-automation.sh
+.config/hypr/scripts/wallpaper-cache.sh
+.config/hypr/scripts/wallpaper-effects.sh
+.config/hypr/scripts/wallpaper-restore.sh
+.config/hypr/scripts/wallpaper.sh
+.config/hypr/scripts/xdg.sh
+.config/hypr/shaders/
+.config/hypr/shaders/blue-light-filter-25.glsl
+.config/hypr/shaders/blue-light-filter-50.glsl
+.config/hypr/shaders/blue-light-filter-75.glsl
+.config/hypr/shaders/invert-colors.glsl
+.config/ml4w/
+.config/ml4w/assets/
+.config/ml4w/assets/blank.png
+.config/ml4w/cache/
+.config/ml4w/login/
+.config/ml4w/login/issue
+.config/ml4w/scripts/
+.config/ml4w/scripts/ags.sh
+.config/ml4w/scripts/cliphist.sh
+.config/ml4w/scripts/figlet.sh
+.config/ml4w/scripts/installupdates.sh
+.config/ml4w/scripts/ml4w-autostart.sh
+.config/ml4w/scripts/nm-applet.sh
+.config/ml4w/scripts/sddm-wallpaper.sh
+.config/ml4w/scripts/shell.sh
+.config/ml4w/scripts/thunarterminal.sh
+.config/ml4w/scripts/updates.sh
+.config/ml4w/scripts/wlogout.sh
+.config/ml4w/scripts/arch/
+.config/ml4w/scripts/arch/cleanup.sh
+.config/ml4w/scripts/arch/installprinters.sh
+.config/ml4w/scripts/arch/installtimeshift.sh
+.config/ml4w/scripts/arch/lid-improvements.sh
+.config/ml4w/scripts/arch/pacman.sh
+.config/ml4w/scripts/arch/snapshot.sh
+.config/ml4w/scripts/arch/unlock-pacman.sh
+.config/ml4w/settings/ai.sh
+.config/ml4w/settings/aur.sh
+.config/ml4w/settings/blur.sh
+.config/ml4w/settings/browser.sh
+.config/ml4w/settings/calculator.sh
+.config/ml4w/settings/dotfiles-folder.sh
+.config/ml4w/settings/dunst_position.sh
+.config/ml4w/settings/editor.sh
+.config/ml4w/settings/emojipicker.sh
+.config/ml4w/settings/eww-monitor.sh
+.config/ml4w/settings/filemanager.sh
+.config/ml4w/settings/hypridle_dpms_timeout.sh
+.config/ml4w/settings/hypridle_hyprlock_timeout.sh
+.config/ml4w/settings/hypridle_suspend_timeout.sh
+.config/ml4w/settings/hyprpaper.tpl
+.config/ml4w/settings/hyprshade.sh
+.config/ml4w/settings/ml4w-sidebar.sh
+.config/ml4w/settings/networkmanager.sh
+.config/ml4w/settings/notification.sh
+.config/ml4w/settings/platform.sh
+.config/ml4w/settings/printer-drivers.sh
+.config/ml4w/settings/rofi-border-radius.rasi
+.config/ml4w/settings/rofi-border.rasi
+.config/ml4w/settings/rofi-font.rasi
+.config/ml4w/settings/rofi_bordersize.sh
+.config/ml4w/settings/screenshot-editor.sh
+.config/ml4w/settings/screenshot-filename.sh
+.config/ml4w/settings/screenshot-folder.sh
+.config/ml4w/settings/software.sh
+.config/ml4w/settings/system-monitor.sh
+.config/ml4w/settings/systeminfo.sh
+.config/ml4w/settings/terminal.sh
+.config/ml4w/settings/wallpaper-automation.sh
+.config/ml4w/settings/wallpaper-effect.sh
+.config/ml4w/settings/wallpaper-engine.sh
+.config/ml4w/settings/wallpaper-folder.sh
+.config/ml4w/settings/wallpaper_cache
+.config/ml4w/settings/waybar-quicklinks.json
+.config/ml4w/settings/waybar-theme.sh
+.config/ml4w/settings/waybar_appmenu.sh
+.config/ml4w/settings/waybar_backlight.sh
+.config/ml4w/settings/waybar_chatgpt.sh
+.config/ml4w/settings/waybar_custom_timedateformat.sh
+.config/ml4w/settings/waybar_dateformat.sh
+.config/ml4w/settings/waybar_network.sh
+.config/ml4w/settings/waybar_quicklinks.sh
+.config/ml4w/settings/waybar_screenlock.sh
+.config/ml4w/settings/waybar_settings.sh
+.config/ml4w/settings/waybar_systray.sh
+.config/ml4w/settings/waybar_taskbar.sh
+.config/ml4w/settings/waybar_timeformat.sh
+.config/ml4w/settings/waybar_timezone.sh
+.config/ml4w/settings/waybar_toggle.sh
+.config/ml4w/settings/waybar_window.sh
+.config/ml4w/settings/waybar_workspaces.sh
+.config/ml4w/settings/wlogout-parameters.sh
+.config/ml4w/settings/sddm/theme.tpl
+.config/ml4w/tpl/
+.config/ml4w/tpl/.zshrc
+.config/ml4w/version/
+.config/ml4w/version/compare.sh
+.config/ml4w/version/library.sh
+.config/ml4w/version/name
+.config/ml4w/version/update.sh
+.config/nwg-dock-hyprland/
+.config/nwg-dock-hyprland/launch.sh
+.config/nwg-dock-hyprland/style.css
+.config/ohmyposh/
+.config/ohmyposh/EDM115-newline.omp.json
+.config/ohmyposh/zen.toml
+.config/qt6ct/
+.config/qt6ct/qt6ct.conf
+.config/rofi/
+.config/rofi/config-cliphist.rasi
+.config/rofi/config-compact.rasi
+.config/rofi/config-hyprshade.rasi
+.config/rofi/config-old.rasi
+.config/rofi/config-screenshot.rasi
+.config/rofi/config-short.rasi
+.config/rofi/config-themes.rasi
+.config/rofi/config.rasi
+.config/vim/
+.config/vim/.vimrc
+.config/wal/templates/
+.config/wal/templates/colors-hyprland.conf
+.config/wal/templates/colors-rofi-pywal.rasi
+.config/wal/templates/colors-waybar.css
+.config/wal/templates/colors-wlogout.css
+.config/waybar/
+.config/waybar/launch.sh
+.config/waybar/modules.json
+.config/waybar/themeswitcher.sh
+.config/waybar/toggle.sh
+.config/waybar/themes/assets/
+.config/waybar/themes/assets/ai-icon-20.png
+.config/waybar/themes/assets/ai-icon.png
+.config/waybar/themes/assets/hyprland-icon-20.png
+.config/waybar/themes/assets/hyprland-icon.png
+.config/waybar/themes/assets/ml4w-icon-20.png
+.config/waybar/themes/assets/ml4w-icon-black.svg
+.config/waybar/themes/assets/ml4w-icon-dark.png
+.config/waybar/themes/assets/ml4w-icon-white.svg
+.config/waybar/themes/assets/ml4w-icon.png
+.config/waybar/themes/assets/ml4w-icon.svg
+.config/waybar/themes/assets/openai-black.svg
+.config/waybar/themes/assets/openai-white.svg
+.config/waybar/themes/assets/openai.svg
+.config/waybar/themes/default/
+.config/waybar/themes/default/config
+.config/waybar/themes/default/config.sh
+.config/waybar/themes/default/style.css
+.config/waybar/themes/ml4w-blur-bottom/
+.config/waybar/themes/ml4w-blur-bottom/config
+.config/waybar/themes/ml4w-blur-bottom/black/
+.config/waybar/themes/ml4w-blur-bottom/black/config.sh
+.config/waybar/themes/ml4w-blur-bottom/black/style.css
+.config/waybar/themes/ml4w-blur-bottom/colored/
+.config/waybar/themes/ml4w-blur-bottom/colored/config.sh
+.config/waybar/themes/ml4w-blur-bottom/colored/style.css
+.config/waybar/themes/ml4w-blur-bottom/dark/
+.config/waybar/themes/ml4w-blur-bottom/dark/config.sh
+.config/waybar/themes/ml4w-blur-bottom/dark/style.css
+.config/waybar/themes/ml4w-blur-bottom/light/
+.config/waybar/themes/ml4w-blur-bottom/light/config.sh
+.config/waybar/themes/ml4w-blur-bottom/light/style.css
+.config/waybar/themes/ml4w-blur-bottom/mixed/
+.config/waybar/themes/ml4w-blur-bottom/mixed/config.sh
+.config/waybar/themes/ml4w-blur-bottom/mixed/style.css
+.config/waybar/themes/ml4w-blur-bottom/white/
+.config/waybar/themes/ml4w-blur-bottom/white/config.sh
+.config/waybar/themes/ml4w-blur-bottom/white/style.css
+.config/waybar/themes/ml4w-blur/
+.config/waybar/themes/ml4w-blur/config
+.config/waybar/themes/ml4w-blur/style.css
+.config/waybar/themes/ml4w-blur/black/
+.config/waybar/themes/ml4w-blur/black/config.sh
+.config/waybar/themes/ml4w-blur/black/style.css
+.config/waybar/themes/ml4w-blur/colored/
+.config/waybar/themes/ml4w-blur/colored/config.sh
+.config/waybar/themes/ml4w-blur/colored/style.css
+.config/waybar/themes/ml4w-blur/dark/
+.config/waybar/themes/ml4w-blur/dark/config.sh
+.config/waybar/themes/ml4w-blur/dark/style.css
+.config/waybar/themes/ml4w-blur/light/
+.config/waybar/themes/ml4w-blur/light/config.sh
+.config/waybar/themes/ml4w-blur/light/style.css
+.config/waybar/themes/ml4w-blur/mixed/
+.config/waybar/themes/ml4w-blur/mixed/config.sh
+.config/waybar/themes/ml4w-blur/mixed/style.css
+.config/waybar/themes/ml4w-blur/white/
+.config/waybar/themes/ml4w-blur/white/config.sh
+.config/waybar/themes/ml4w-blur/white/style.css
+.config/waybar/themes/ml4w-bottom/
+.config/waybar/themes/ml4w-bottom/config
+.config/waybar/themes/ml4w-bottom/black/
+.config/waybar/themes/ml4w-bottom/black/config.sh
+.config/waybar/themes/ml4w-bottom/black/style.css
+.config/waybar/themes/ml4w-bottom/colored/
+.config/waybar/themes/ml4w-bottom/colored/config.sh
+.config/waybar/themes/ml4w-bottom/colored/style.css
+.config/waybar/themes/ml4w-bottom/dark/
+.config/waybar/themes/ml4w-bottom/dark/config.sh
+.config/waybar/themes/ml4w-bottom/dark/style.css
+.config/waybar/themes/ml4w-bottom/light/
+.config/waybar/themes/ml4w-bottom/light/config.sh
+.config/waybar/themes/ml4w-bottom/light/style.css
+.config/waybar/themes/ml4w-bottom/mixed/
+.config/waybar/themes/ml4w-bottom/mixed/config.sh
+.config/waybar/themes/ml4w-bottom/mixed/style.css
+.config/waybar/themes/ml4w-bottom/white/
+.config/waybar/themes/ml4w-bottom/white/config.sh
+.config/waybar/themes/ml4w-bottom/white/style.css
+.config/waybar/themes/ml4w-minimal/
+.config/waybar/themes/ml4w-minimal/config
+.config/waybar/themes/ml4w-minimal/config.sh
+.config/waybar/themes/ml4w-minimal/style.css
+.config/waybar/themes/ml4w-modern/
+.config/waybar/themes/ml4w-modern/config
+.config/waybar/themes/ml4w-modern/style.css
+.config/waybar/themes/ml4w-modern/black/config.sh
+.config/waybar/themes/ml4w-modern/black/style.css
+.config/waybar/themes/ml4w-modern/colored/config.sh
+.config/waybar/themes/ml4w-modern/colored/style.css
+.config/waybar/themes/ml4w-modern/dark/config.sh
+.config/waybar/themes/ml4w-modern/dark/style.css
+.config/waybar/themes/ml4w-modern/light/config.sh
+.config/waybar/themes/ml4w-modern/light/style.css
+.config/waybar/themes/ml4w-modern/mixed/config.sh
+.config/waybar/themes/ml4w-modern/mixed/style.css
+.config/waybar/themes/ml4w-modern/white/config.sh
+.config/waybar/themes/ml4w-modern/white/style.css
+.config/waybar/themes/ml4w/
+.config/waybar/themes/ml4w/config
+.config/waybar/themes/ml4w/style.css
+.config/waybar/themes/ml4w/black/
+.config/waybar/themes/ml4w/black/config.sh
+.config/waybar/themes/ml4w/black/style.css
+.config/waybar/themes/ml4w/colored/
+.config/waybar/themes/ml4w/colored/config.sh
+.config/waybar/themes/ml4w/colored/style.css
+.config/waybar/themes/ml4w/dark/
+.config/waybar/themes/ml4w/dark/config.sh
+.config/waybar/themes/ml4w/dark/style.css
+.config/waybar/themes/ml4w/light/
+.config/waybar/themes/ml4w/light/config.sh
+.config/waybar/themes/ml4w/light/style.css
+.config/waybar/themes/ml4w/mixed/
+.config/waybar/themes/ml4w/mixed/config.sh
+.config/waybar/themes/ml4w/mixed/style.css
+.config/waybar/themes/ml4w/white/
+.config/waybar/themes/ml4w/white/config.sh
+.config/waybar/themes/ml4w/white/style.css
+.config/waybar/themes/starter/
+.config/waybar/themes/starter/config
+.config/waybar/themes/starter/config.sh
+.config/waybar/themes/starter/modules.json
+.config/waybar/themes/starter/style.css
+.config/wlogout/
+.config/wlogout/README.txt
+.config/wlogout/layout
+.config/wlogout/noise.png
+.config/wlogout/style.css
+.config/wlogout/icons/
+.config/wlogout/icons/hibernate.png
+.config/wlogout/icons/lock.png
+.config/wlogout/icons/logout.png
+.config/wlogout/icons/reboot.png
+.config/wlogout/icons/shutdown.png
+.config/wlogout/icons/suspend.png
+.config/xsettingsd/
+.config/xsettingsd/xsettingsd.conf
+.config/zshrc/
+.config/zshrc/00-init
+.config/zshrc/20-customization
+.config/zshrc/25-aliases
+.config/zshrc/30-autostart
+
+sent 652.86K bytes  received 6.91K bytes  1.32M bytes/sec
+total size is 627.52K  speedup is 0.95
+20241231214406 SUCCESS All files from /home/nic/.ml4w-hyprland/2.9.7.3/ to ~/ml4w-dotfiles/ copied.
+
+# ------------------------------------------------------
+# Symlinks
+# ------------------------------------------------------
+
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.bashrc -> /home/nic/.bashrc
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.gtkrc-2.0 -> /home/nic/.gtkrc-2.0
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.Xresources -> /home/nic/.Xresources
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.zshrc -> /home/nic/.zshrc
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/ags -> /home/nic/.config/ags
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/alacritty -> /home/nic/.config/alacritty
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/bashrc -> /home/nic/.config/bashrc
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/dunst -> /home/nic/.config/dunst
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/fastfetch -> /home/nic/.config/fastfetch
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/gtk-3.0 -> /home/nic/.config/gtk-3.0
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/gtk-4.0 -> /home/nic/.config/gtk-4.0
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/hypr -> /home/nic/.config/hypr
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/ml4w -> /home/nic/.config/ml4w
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/nvim -> /home/nic/.config/nvim
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/nwg-dock-hyprland -> /home/nic/.config/nwg-dock-hyprland
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/ohmyposh -> /home/nic/.config/ohmyposh
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/qt6ct -> /home/nic/.config/qt6ct
+20241231214406 SUCCESS /home/nic/ml4w-dotfiles/.config/rofi -> /home/nic/.config/rofi
+20241231214407 SUCCESS /home/nic/ml4w-dotfiles/.config/starship.toml -> /home/nic/.config/starship.toml
+20241231214407 SUCCESS /home/nic/ml4w-dotfiles/.config/vim -> /home/nic/.config/vim
+20241231214407 SUCCESS /home/nic/ml4w-dotfiles/.config/wal -> /home/nic/.config/wal
+20241231214407 SUCCESS /home/nic/ml4w-dotfiles/.config/waybar -> /home/nic/.config/waybar
+20241231214407 SUCCESS /home/nic/ml4w-dotfiles/.config/waypaper -> /home/nic/.config/waypaper
+20241231214407 SUCCESS /home/nic/ml4w-dotfiles/.config/wlogout -> /home/nic/.config/wlogout
+20241231214407 SUCCESS /home/nic/ml4w-dotfiles/.config/xsettingsd -> /home/nic/.config/xsettingsd
+20241231214407 SUCCESS /home/nic/ml4w-dotfiles/.config/zshrc -> /home/nic/.config/zshrc
+
+# ------------------------------------------------------
+# Pywal
+# ------------------------------------------------------
+
+20241231214407 MESSAGE Pywal already activated.
+
+# ------------------------------------------------------
+# Settings
+# ------------------------------------------------------
+
+20241231214407 MESSAGE Starting restore settings
+20241231214407 SUCCESS waybar_timeformat restored
+20241231214407 SUCCESS waybar_custom_timedateformat restored
+20241231214407 SUCCESS dunst_position restored
+20241231214407 SUCCESS waybar_workspaces restored
+20241231214407 SUCCESS waybar_taskbar restored
+20241231214407 SUCCESS waybar_network restored
+20241231214407 SUCCESS waybar_backlight restored
+20241231214407 SUCCESS waybar_chatgpt restored
+20241231214407 SUCCESS waybar_systray restored
+20241231214407 SUCCESS waybar_screenlock restored
+20241231214407 SUCCESS waybar_window restored
+20241231214407 SUCCESS waybar_appmenu restored
+20241231214407 SUCCESS waybar_appmenuicon restored
+20241231214407 SUCCESS hypridle_hyprlock_timeout restored
+20241231214407 SUCCESS hypridle_dpms_timeout restored
+20241231214407 SUCCESS hypridle_suspend_timeout restored
+
+# ------------------------------------------------------
+# Apps
+# ------------------------------------------------------
+
+20241231214407 SUCCESS ML4W Welcome App installed successfully
+20241231214407 SUCCESS ML4W Settings App installed successfully
+20241231214407 SUCCESS ML4W Hyprland Settings App installed successfully
+
+# ------------------------------------------------------
+# Hyprland Settings App
+# ------------------------------------------------------
+
+20241231214407 MESSAGE Starting restore from ML4W Hyprland Settings App
+
+# ------------------------------------------------------
+# Finalizing
+# ------------------------------------------------------
+
+20241231214410 SUCCESS platform.sh with arch created
+20241231214410 MESSAGE NetworkManager.service already running.
+20241231214411 SUCCESS bluetooth.service activated successfully.
+20241231214411 SUCCESS Clean up done
+
+# ------------------------------------------------------
+# Post Script
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Reboot
+# ------------------------------------------------------
+
