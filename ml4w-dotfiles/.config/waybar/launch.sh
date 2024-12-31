@@ -8,6 +8,13 @@
 # by Stephan Raabe (2023) 
 # ----------------------------------------------------- 
 
+# Check if waybar-disabled file exists
+if [ -f $HOME/.cache/waybar-disabled ] ;then 
+    killall waybar
+    pkill waybar
+    exit 1 
+fi
+
 # ----------------------------------------------------- 
 # Quit all running waybar instances
 # ----------------------------------------------------- 
@@ -18,7 +25,7 @@ sleep 0.5
 # ----------------------------------------------------- 
 # Default theme: /THEMEFOLDER;/VARIATION
 # ----------------------------------------------------- 
-themestyle="/ml4w;/ml4w/light"
+themestyle="/ml4w-blur;/ml4w-blur/white"
 
 # ----------------------------------------------------- 
 # Get current theme information from ~/.config/ml4w/settings/waybar-theme.sh
@@ -51,8 +58,4 @@ if [ -f ~/.config/waybar/themes${arrThemes[1]}/style-custom.css ] ;then
     style_file="style-custom.css"
 fi
 
-# Check if waybar-disabled file exists
-if [ ! -f $HOME/.cache/waybar-disabled ] ;then 
-    waybar -c ~/.config/waybar/themes${arrThemes[0]}/$config_file -s ~/.config/waybar/themes${arrThemes[1]}/$style_file &
-fi
-
+waybar -c ~/.config/waybar/themes${arrThemes[0]}/$config_file -s ~/.config/waybar/themes${arrThemes[1]}/$style_file &
