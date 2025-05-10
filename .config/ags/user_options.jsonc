@@ -17,13 +17,13 @@
 {
     "sidebar": {
         "pages": {
-            "defaultPage": "tools",
+            "defaultPage": "apis",
             "apis": {
-                "defaultPage": "gpt"
+                "defaultPage": "gemini"
             }
         },
         "calendar": {
-            "expandByDefault": false
+            "expandByDefault": true
         },
         "image": {
             "allowNsfw": false
