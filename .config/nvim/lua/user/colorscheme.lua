@@ -1,2 +1,9 @@
 -- Set colorscheme to use
-return "catppuccin"
+return {
+	{
+		"catppuccin",
+		opts = {
+			transparent_background = true,
+		},
+	},
+}
