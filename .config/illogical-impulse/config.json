@@ -102,10 +102,10 @@
                     "animateChange": true,
                     "font": {
                         "family": "Google Sans Flex",
-                        "roundness": 0,
-                        "size": 90,
-                        "weight": 350,
-                        "width": 100
+                        "roundness": 100,
+                        "size": 112.06077015643802,
+                        "weight": 530.4226647111914,
+                        "width": 100.26699759326114
                     },
                     "showDate": true,
                     "vertical": false
@@ -119,14 +119,14 @@
                 "showOnlyWhenLocked": false,
                 "style": "digital",
                 "styleLocked": "digital",
-                "x": 148.02734374999977,
-                "y": 87.87109375
+                "x": 188.171875,
+                "y": 95.0078125
             },
             "weather": {
-                "enable": false,
+                "enable": true,
                 "placementStrategy": "free",
-                "x": 457.0820312499999,
-                "y": 189.00390625
+                "x": 390.3515624999999,
+                "y": 218.36328125
             }
         }
     },
@@ -160,7 +160,7 @@
         ],
         "showBackground": false,
         "tooltips": {
-            "clickToShow": false
+            "clickToShow": true
         },
         "topLeftIcon": "spark",
         "utilButtons": {
@@ -177,7 +177,7 @@
         "weather": {
             "city": "Dinh Ca",
             "enable": true,
-            "enableGPS": true,
+            "enableGPS": false,
             "fetchInterval": 10,
             "useUSCS": false
         },
@@ -213,11 +213,11 @@
         }
     },
     "battery": {
-        "automaticSuspend": true,
+        "automaticSuspend": false,
         "critical": 5,
         "full": 101,
         "low": 20,
-        "suspend": 3
+        "suspend": 0
     },
     "calendar": {
         "locale": "en-GB"
@@ -274,7 +274,7 @@
             "sourceLanguage": "日本語",
             "targetLanguage": "English"
         },
-        "ui": "auto"
+        "ui": "en_US"
     },
     "launcher": {
         "pinnedApps": [
@@ -297,7 +297,7 @@
     "lock": {
         "blur": {
             "enable": true,
-            "extraZoom": 1.1,
+            "extraZoom": 1,
             "radius": 100
         },
         "centerClock": true,
@@ -475,7 +475,7 @@
     },
     "sounds": {
         "battery": false,
-        "pomodoro": false,
+        "pomodoro": true,
         "theme": "freedesktop"
     },
     "time": {
