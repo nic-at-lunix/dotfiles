@@ -45,7 +45,7 @@ AbstractWidget {
     property bool dominantColorIsDark: dominantColor.hslLightness < 0.5
     property color colText: {
         const onNormalBackground = (GlobalStates.screenLocked && Config.options.lock.blur.enable)
-        const adaptiveColor = ColorUtils.colorWithLightness(Appearance.colors.colPrimary, (dominantColorIsDark ? 0.8 : 0.72))
+        const adaptiveColor = ColorUtils.colorWithLightness(Appearance.colors.colPrimary, (dominantColorIsDark ? 0.8 : 0.12))
         return onNormalBackground ? Appearance.colors.colOnLayer0 : adaptiveColor;
     }
 
@@ -59,7 +59,8 @@ AbstractWidget {
         function onReadyChanged() { refreshPlacementIfNeeded() }
     }
     function refreshPlacementIfNeeded() {
-        if (!Config.ready || (root.placementStrategy === "free" && root.needsColText)) return;
+        if (!Config.ready) return;
+        if (root.placementStrategy === "free" && !root.needsColText) return;
         leastBusyRegionProc.wallpaperPath = root.wallpaperPath;
         leastBusyRegionProc.running = false;
         leastBusyRegionProc.running = true;
