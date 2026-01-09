@@ -1,4 +1,4 @@
-diff -ruN dots-hyprland/dots/.config/hypr/hyprland/execs.conf /home/nic/.config/hypr/hyprland/execs.conf
+diff -ruN /home/nic/dots-hyprland/dots/.config/hypr/hyprland/execs.conf /home/nic/.config/hypr/hyprland/execs.conf
 --- dots-hyprland/dots/.config/hypr/hyprland/execs.conf	2026-01-02 11:02:16.829132099 +0700
 +++ /home/nic/.config/hypr/hyprland/execs.conf	2026-01-03 19:01:19.714115517 +0700
 @@ -19,7 +19,6 @@
